@@ -1,0 +1,15 @@
+Iloœæ ruchów dla 3 dysków: 11
+Iloœæ ruchów dla 4 dysków: 15
+Iloœæ ruchów dla 3 dysków: 15
+Iloœæ ruchów dla 4 dysków: 16
+Iloœæ ruchów dla 5 dysków: 72
+Iloœæ ruchów dla 6 dysków: 86
+Iloœæ ruchów dla 7 dysków: 311
+Iloœæ ruchów dla 3 dysków: 14
+Iloœæ ruchów dla 3 dysków: 13
+Iloœæ ruchów dla 3 dysków: 13
+Czas gry dla 3 dysków: 17.49 sekund
+Iloœæ ruchów dla 3 dysków: 11
+Czas gry dla 3 dysków: 23.22 sekund
+Iloœæ ruchów dla 3 dysków: 11
+Czas gry dla 3 dysków: 23.50 sekund
