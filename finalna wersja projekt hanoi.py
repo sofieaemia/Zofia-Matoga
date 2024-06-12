@@ -1,4 +1,5 @@
 from psychopy import visual, event, core, gui
+import os
 
 def user_data(): # zbieranie danych osoby badanej - okno dialogowe nie działa za dobrze, w sensie wpływa na rozmiar gry później, nie udało nam się znależć rozwiązania problemu, więc dla wygodniejszej gry polecamy zakomentować ten fragment programu 
     data = dict()
@@ -62,8 +63,8 @@ win = visual.Window(size=(800, 600), color="#808080", units="pix")
 
 num_disks = 3  # liczba dysków dla 1 lvl
 
-
-file_path = "C:/Users/zosia/Desktop/game_results.txt" #plik na pulpicie (trzeba będzie zmienić na jakiś)
+desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
+file_path = os.path.join(desktop_path, "game_results1.txt") #plik na pulpicie 
 
 core.wait(5)
 visual.TextStim(win, text = "Przed tobą pięć etapów gry Wieża Hanoi, gry polegającej na przekładaniu określonej ilości dysków pomiędzy trzema prętami.", color = 'white', height = 30).draw()
